@@ -1,0 +1,143 @@
+[
+  {
+    "_id": {
+      "$oid": "6af95de20a73cebaeb17a212"
+    },
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "year": 2008,
+    "genre": "Software Engineering",
+    "price": 43.989000000000004,
+    "isbn": "978-0132350884",
+    "tags": [
+      "programming",
+      "clean-code",
+      "refactoring"
+    ],
+    "publisher": {
+      "name": "Prentice Hall",
+      "location": "Upper Saddle River"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af95de20a73cebaeb17a213"
+    },
+    "title": "Design Patterns",
+    "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    "year": 1994,
+    "genre": "Software Architecture",
+    "price": 60.489000000000004,
+    "isbn": "978-0201633610",
+    "tags": [
+      "patterns",
+      "architecture",
+      "oop"
+    ],
+    "publisher": {
+      "name": "Addison-Wesley",
+      "location": "Boston"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af95de20a73cebaeb17a214"
+    },
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "year": 1999,
+    "genre": "Software Engineering",
+    "price": 52.25000000000001,
+    "isbn": "978-0201485677",
+    "tags": [
+      "refactoring",
+      "code-quality",
+      "design"
+    ],
+    "publisher": {
+      "name": "Addison-Wesley",
+      "location": "Boston"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af95de20a73cebaeb17a215"
+    },
+    "title": "The Pragmatic Programmer (20th Anniv)",
+    "author": "David Thomas & Andrew Hunt",
+    "year": 2019,
+    "genre": "Software Engineering",
+    "price": 49.99,
+    "isbn": "978-0135957059",
+    "tags": [
+      "programming",
+      "career",
+      "best-practices"
+    ],
+    "publisher": {
+      "name": "Addison-Wesley",
+      "location": "Boston"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af95de20a73cebaeb17a216"
+    },
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "year": 2017,
+    "genre": "Databases",
+    "price": 45.99,
+    "isbn": "978-1449373320",
+    "tags": [
+      "databases",
+      "distributed-systems",
+      "architecture"
+    ],
+    "publisher": {
+      "name": "O'Reilly Media",
+      "location": "Sebastopol"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af95de20a73cebaeb17a217"
+    },
+    "title": "Deep Learning",
+    "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+    "year": 2016,
+    "genre": "Machine Learning",
+    "price": 72.0,
+    "isbn": "978-0262035613",
+    "tags": [
+      "AI",
+      "neural-networks",
+      "theory"
+    ],
+    "publisher": {
+      "name": "MIT Press",
+      "location": "Cambridge"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af95de20a73cebaeb17a218"
+    },
+    "title": "Hands-On Machine Learning",
+    "author": "Aurelien Geron",
+    "year": 2022,
+    "genre": "Machine Learning",
+    "price": 59.99,
+    "isbn": "978-1098125974",
+    "tags": [
+      "AI",
+      "scikit-learn",
+      "tensorflow",
+      "practical"
+    ],
+    "publisher": {
+      "name": "O'Reilly Media",
+      "location": "Sebastopol"
+    }
+  }
+]

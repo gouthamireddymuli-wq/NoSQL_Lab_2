@@ -1,0 +1,55 @@
+[
+  {
+    "_id": {
+      "$oid": "6af95ddc3328e9fa9d1c02fe"
+    },
+    "activity": "Activity 2.1: Environment Setup Verification",
+    "student_name": "M. Gouthami",
+    "register_no": "24BTRCL130",
+    "timestamp": "2026-11-15T12:53:08.906889",
+    "host_platform": "win32",
+    "verification_results": {
+      "python": {
+        "status": "OK",
+        "version": "3.13.2",
+        "executable": "C:\\Users\\gouth\\AppData\\Local\\Programs\\Python\\Python313\\python.exe"
+      },
+      "pymongo": {
+        "status": "OK",
+        "version": "4.20.0"
+      },
+      "mongodb_local": {
+        "status": "OK",
+        "version": "9.0.2",
+        "platform": "N/A",
+        "pid": "N/A",
+        "storageEngines": [
+          "devnull",
+          "wiredTiger"
+        ],
+        "uri": "mongodb://localhost:27017"
+      },
+      "mongodb_atlas": {
+        "status": "CONFIG_STANDBY",
+        "note": "MONGO_URI_ATLAS not specified"
+      },
+      "docker": {
+        "status": "STANDBY",
+        "note": "Native MongoDB Service used"
+      }
+    },
+    "ecosystem_packages": {
+      "fastapi": "not installed",
+      "streamlit": "not installed",
+      "voyageai": "not installed",
+      "neo4j": "not installed",
+      "cassandra": "not installed",
+      "rich": "installed",
+      "dotenv": "not installed",
+      "python-docx": "1.2.0",
+      "pillow": "13.0.0"
+    },
+    "readiness_verdict": "PASSED - FULLY OPERATIONAL",
+    "notes": "Native MongoDB 9.0.2 service active on localhost:27017. Ready for Bookstore CRUD operations."
+  }
+]

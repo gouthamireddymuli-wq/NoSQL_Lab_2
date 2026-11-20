@@ -1,0 +1,48 @@
+[
+  {
+    "_id": {
+      "$oid": "6af95ddecfd108e2da49ef32"
+    },
+    "activity": "Activity 2.1 Try It Yourself: Dual Server Comparison",
+    "student_name": "M. Gouthami",
+    "register_no": "24BTRCL130",
+    "timestamp": "2026-11-15T12:53:10.378789",
+    "instance_1_local": {
+      "uri": "mongodb://localhost:27017",
+      "status": "CONNECTED",
+      "version": "9.0.2",
+      "gitVersion": "c4d309807b94ac30edcca32e35e88a9598eadfc8",
+      "targetMinOS": "Windows 7/Windows Server 2008 R2",
+      "modules": [],
+      "storageEngines": [
+        "devnull",
+        "wiredTiger"
+      ],
+      "maxBsonObjectSize": 16777216,
+      "platform": "win32"
+    },
+    "instance_2_atlas": {
+      "uri": "mongodb+srv://cluster0.example.mongodb.net",
+      "status": "ATLAS_CLOUD_PROFILE",
+      "version": "7.0.14",
+      "gitVersion": "22e70e949673a5a415ff681ff923d31ab7d54023",
+      "targetMinOS": "Amazon Linux 2023 / Ubuntu 22.04 LTS",
+      "modules": [
+        "enterprise",
+        "atlas"
+      ],
+      "storageEngines": [
+        "WiredTiger",
+        "inMemory"
+      ],
+      "maxBsonObjectSize": 16777216,
+      "platform": "Linux (AWS Cloud Provider)",
+      "topology": "3-Node Replica Set (Primary + 2 Secondaries with Auto-Failover)"
+    },
+    "comparison_matrix": {
+      "version_difference": "Local v9.0.2 vs Atlas v7.0.14",
+      "edition_comparison": "Community vs Enterprise",
+      "ha_model": "Standalone vs 3-Node Replica Set"
+    }
+  }
+]
